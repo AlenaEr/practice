@@ -2,85 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5b911a7-1c53-463e-a18d-675799e0a817" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MyList/ArrayListImpl$A.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MyList/ArrayListImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MyList/ArrayListImpl2$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MyList/ArrayListImpl2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MyList/LinkedListImpl$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MyList/LinkedListImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MyList/LinkedListImpl2$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MyList/LinkedListImpl2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MyList/MainArr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MyList/MainLinkedList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MyList/Node.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MyList/Node2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MyList/SimpleList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MyList/SimpleList2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/MainBag.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/MainQueue.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/MyBag2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/MyBagImpl2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/MyQueue.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/MyQueue2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/MyQueueImpl$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/MyQueueImpl$MyQueueIterator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/MyQueueImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/MyQueueImpl2$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/MyQueueImpl2$QueueIter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/MyQueueImpl2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/MyStack.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/MyStack2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/MyStackImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/MyStackImpl2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/QueueImplList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/datastructure/StackImplExaple.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/myarray/ArImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/myarray/ArrayExample2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/myarray/ArrayExampleImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/myarray/MainArray.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/ArrayExampleTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProject.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MyList/ArrayListImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MyList/ArrayListImpl2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MyList/LinkedListImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MyList/LinkedListImpl2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MyList/MainArr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MyList/MainLinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MyList/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MyList/Node2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MyList/SimpleList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MyList/SimpleList2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructure/MainBag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructure/MainQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructure/MyBag2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructure/MyBagImpl2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructure/MyQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructure/MyQueue2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructure/MyQueueImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructure/MyQueueImpl2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructure/MyStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructure/MyStack2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructure/MyStackImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructure/MyStackImpl2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructure/QueueImplList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/datastructure/StackImplExaple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hashtable/MyEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hashtable/MyHashTable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hashtable/MyHashTableImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/myarray/ArImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/myarray/ArrayExample2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/myarray/ArrayExampleImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/myarray/MainArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ArrayExampleTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -656,7 +578,7 @@
       <workItem from="1514155195471" duration="102000" />
       <workItem from="1514221581493" duration="5567000" />
       <workItem from="1514305077303" duration="8830000" />
-      <workItem from="1514408777256" duration="2918000" />
+      <workItem from="1514408777256" duration="3232000" />
     </task>
     <servers />
   </component>
@@ -693,7 +615,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95962000" />
+    <option name="totallyTimeSpent" value="96276000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -706,7 +628,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -717,7 +638,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06535948" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3251634" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3251634" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28517398" sideWeight="0.49281314" order="0" side_tool="false" content_ui="combo" />

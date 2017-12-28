@@ -47,11 +47,35 @@ public class MyHashTableImpl implements MyHashTable {
 
     @Override
     public Object remove(Object key) {
+        int index = basketIndex(key);
+        LinkedList basketItem = data[index];
+        if (basketItem == null) {
+            return null;
+        }
+        for (int i = 0; i < basketItem.size(); i++) {
+            MyEntry entry = (MyEntry) basketItem.get(i);
+            if (key.equals(entry.getKey())) {
+                basketItem.remove(i);
+                return entry.getValue();
+            }
+        }
         return null;
     }
 
     @Override
     public Object set(Object key, Object value) {
+        int index = basketIndex(key);
+        LinkedList basketItem = data[index];
+        if (basketItem == null) {
+            return null;
+        }
+        for (int i = 0; i < basketItem.size(); i++) {
+            MyEntry entry = (MyEntry) basketItem.get(i);
+            if (key.equals(entry.getKey())) {
+                basketItem.set(i, new MyEntry(key, value));
+                return entry.getValue();
+            }
+        }
         return null;
     }
 

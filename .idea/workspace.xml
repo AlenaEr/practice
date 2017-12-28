@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="85b22c94-620d-4bc5-bebd-fbfe463cff4e" name="Revert &quot;first commit&quot;" comment="" />
+<<<<<<< HEAD
     <list default="true" id="ee2ec6eb-a6d0-43d7-9d38-7030cf2274e4" name="Default" comment="" />
+=======
+    <list default="true" id="ee2ec6eb-a6d0-43d7-9d38-7030cf2274e4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+>>>>>>> alena
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +53,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
+=======
+      <pane id="Scratches" />
+>>>>>>> alena
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,6 +95,17 @@
               <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="myproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MyList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+>>>>>>> alena
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -98,7 +119,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+      <pane id="AndroidView" />
+>>>>>>> alena
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -128,7 +153,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="AndroidView" />
+=======
+      <pane id="PackagesPane" />
+>>>>>>> alena
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,6 +221,7 @@
       <envs />
       <patterns />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -204,6 +234,8 @@
       <module name="myproject" />
       <envs />
     </configuration>
+=======
+>>>>>>> alena
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -244,6 +276,21 @@
       <properties />
       <listeners />
     </configuration>
+<<<<<<< HEAD
+=======
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="myproject" />
+      <envs />
+    </configuration>
+>>>>>>> alena
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -268,12 +315,21 @@
       <workItem from="1514490317086" duration="112000" />
       <workItem from="1514490576367" duration="31000" />
       <workItem from="1514490681566" duration="101000" />
+<<<<<<< HEAD
       <workItem from="1514490864947" duration="283000" />
+=======
+      <workItem from="1514490864947" duration="369000" />
+      <workItem from="1514491360852" duration="1871000" />
+>>>>>>> alena
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="2431000" />
+=======
+    <option name="totallyTimeSpent" value="4388000" />
+>>>>>>> alena
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,7 +496,10 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
             <folding />
+=======
+>>>>>>> alena
           </first_editor>
           <second_editor />
         </state>

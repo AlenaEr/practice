@@ -3,7 +3,7 @@ package datastructure;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class QueueImplList implements MyQueue2 {
+public class QueueImplList implements MyQueue {
     LinkedList data;
 
     public QueueImplList() {

@@ -3,10 +3,9 @@ package datastructure;
 import java.util.Iterator;
 
 public class MyQueueImpl implements MyQueue, Iterable {
-
     private Object[] data;
     private int size;
-    private int capacity = 15;
+    private int capacity = 10;
 
     public MyQueueImpl() {
         data = new Object[capacity];
@@ -16,6 +15,7 @@ public class MyQueueImpl implements MyQueue, Iterable {
         this.capacity = capacity;
         data = new Object[capacity];
     }
+
 
     public boolean isEmpty() {
         return size == 0;
@@ -27,46 +27,45 @@ public class MyQueueImpl implements MyQueue, Iterable {
 
     public void enqueue(Object item) {
         if (size + 1 > data.length) {
-            Object[] tmp = new Object[data.length + capacity];
-            System.arraycopy(data, 0, tmp, 0, data.length);
-            data = tmp;
+            Object[] temp = new Object[data.length + capacity];
+            System.arraycopy(data, 0, temp, 0, data.length);
+            data = temp;
         }
+
         data[size] = item;
         size++;
     }
 
-
     public Object dequeue() {
         if (isEmpty()) {
-            throw new RuntimeException("data is empty");
+            throw new RuntimeException("data is empty...");
         }
-        Object res = data[0];
-        for (int i = 0; i < size-1; i++) {
+        Object el = data[0];
+        for (int i = 0; i < data.length - 1; i++) {
             data[i] = data[i + 1];
         }
         data[size] = null;
         size--;
-        return res;
+        return el;
     }
 
     public Iterator iterator() {
-        return new MyQueueIterator();
-
+        return new QueueIter();
     }
 
-    private class MyQueueIterator implements Iterator {
+    private class QueueIter implements Iterator {
         private int iterIndex;
-        private int queueSize = size;
+        private int qSize=size;
 
         public boolean hasNext() {
-            return iterIndex < queueSize;
+            //System.out.println("HAS NEXT");
+            return iterIndex < qSize;
         }
 
         public Object next() {
-            Object item = data[iterIndex];
+            Object itr = data[iterIndex];
             iterIndex++;
-            return item;
+            return itr;
         }
     }
 }
-

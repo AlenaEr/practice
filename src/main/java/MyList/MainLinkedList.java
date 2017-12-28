@@ -5,8 +5,8 @@ import java.util.ListIterator;
 
 public class MainLinkedList {
     public static void main(String[] args) {
-       LinkedListImpl linkedList = new LinkedListImpl();
-//        ArrayListImpl arrayList = new ArrayListImpl();
+       LinkedListImpl2 linkedList = new LinkedListImpl2();
+//        ArrayListImpl2 arrayList = new ArrayListImpl2();
 //        arrayList.add(15);
 //        arrayList.add(10);
 //

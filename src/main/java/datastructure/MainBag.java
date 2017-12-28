@@ -6,12 +6,12 @@ public class MainBag {
     public static void main(String[] args) {
 
 //
-//        MyBagImpl2 myBag = new MyBagImpl2();
+//        MyBagImpl myBag = new MyBagImpl();
 //        //int[] data = {1, 5, 10, 0, 3, 6};
 //        myBag.add("A");
 //        System.out.println(myBag.size());
 
-        MyQueueImpl2 impl2 = new MyQueueImpl2();
+        MyQueueImpl impl2 = new MyQueueImpl();
         impl2.enqueue("a");
         impl2.enqueue("b");
         impl2.enqueue("c");

@@ -1,6 +1,6 @@
 package datastructure;
 
-public interface MyBag2 {
+public interface MyBag {
 
     public boolean isEnpty();
     public int size();

@@ -1,29 +1,37 @@
 package datastructure;
 
-import java.util.Iterator;
-import java.util.LinkedList;
+public class MyStackImpl implements MyStack {
+    private Object[] data;
+    private int capacity = 10;
+    private int size;
 
-public class MyStackImpl implements MyStack, Iterable {
-    LinkedList data;
+    public MyStackImpl(int capacity) {
+        this.capacity = capacity;
+        data = new Object[capacity];
+    }
 
     public boolean isEmpty() {
-        return data.isEmpty();
+        return size == 0;
     }
 
     public int size() {
-        return data.size();
+        return size;
     }
 
     public void push(Object item) {
-        data.add(item);
+        if (size + 1 > data.length) {
+            Object[] tmp = new Object[data.length + capacity];
+            System.arraycopy(data, 0, tmp, 0, data.length);
+            data = tmp;
+        }
+        data[size] = item;
+        size++;
     }
 
     public Object pop() {
-        Object res = data.removeLast();
+        Object res = data[size - 1];
+        data[size - 1] = null;
+        size--;
         return res;
-    }
-
-    public Iterator iterator() {
-        return data.iterator();
     }
 }

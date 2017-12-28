@@ -3,17 +3,17 @@ package MyList;
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 
-public class ArrayListImpl2 implements SimpleList2 {
+public class ArrayListImpl implements SimpleList {
     private Object[] data;
     private int size;
     private int capacity = 10;
     private long version;
 
-    public ArrayListImpl2() {
+    public ArrayListImpl() {
         data = new Object[capacity];
     }
 
-    public ArrayListImpl2(int capacity) {
+    public ArrayListImpl(int capacity) {
         this.capacity = capacity;
         data = new Object[capacity];
     }
@@ -75,7 +75,7 @@ public class ArrayListImpl2 implements SimpleList2 {
         return new Iterator() {
             private int iterIndex;
             private int iterSize = size;
-            private long version = ArrayListImpl2.this.version;
+            private long version = ArrayListImpl.this.version;
 
             @Override
             public boolean hasNext() {

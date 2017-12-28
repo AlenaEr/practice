@@ -1,11 +1,11 @@
-import myarray.ArrayExample2;
+import myarray.ArrayExample;
 import myarray.ArrayExampleImpl;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
 
 public class ArrayExampleTest {
-    private ArrayExample2 arrayExample = new ArrayExampleImpl();
+    private ArrayExample arrayExample = new ArrayExampleImpl();
 
 
     @Test

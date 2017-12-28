@@ -7,6 +7,10 @@ public class MyHashTableImpl implements MyHashTable {
     private int capacity;
     private int size;
 
+    public MyHashTableImpl() {
+        data = new LinkedList[capacity];
+    }
+
     public MyHashTableImpl(int capacity) {
         this.capacity = capacity;
         data = new LinkedList[capacity];
@@ -25,7 +29,24 @@ public class MyHashTableImpl implements MyHashTable {
     @Override
     public Object put(Object key, Object value) {
         int index = basketIndex(key);
+        if (data[index] == null) {
+            data[index] = new LinkedList();
+            MyEntry entry = new MyEntry(key, value);
+            data[index].add(entry);
+            size++;
+            return null;
+        }
+        LinkedList basketItem = data[index];
+        for (int i = 0; i < basketItem.size(); i++) {
+            MyEntry entry = (MyEntry) basketItem.get(i);
+            if (key.equals(entry.getKey())) {
+                MyEntry oldValue = (MyEntry) basketItem.set(i, new MyEntry(key, value));
+                return oldValue.getValue();
+            }
 
+        }
+        basketItem.add(new MyEntry(key, value));
+        size++;
         return null;
     }
 

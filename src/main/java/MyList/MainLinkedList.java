@@ -1,12 +1,9 @@
 package MyList;
 
-import java.util.Iterator;
-import java.util.ListIterator;
-
 public class MainLinkedList {
     public static void main(String[] args) {
-       LinkedListImpl2 linkedList = new LinkedListImpl2();
-//        ArrayListImpl2 arrayList = new ArrayListImpl2();
+       LinkedListImpl linkedList = new LinkedListImpl();
+//        ArrayListImpl arrayList = new ArrayListImpl();
 //        arrayList.add(15);
 //        arrayList.add(10);
 //

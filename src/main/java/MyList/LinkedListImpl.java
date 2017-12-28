@@ -2,7 +2,7 @@ package MyList;
 
 import java.util.Iterator;
 
-public class LinkedListImpl2 implements SimpleList2 {
+public class LinkedListImpl implements SimpleList {
     private int size;
     private long version;
     private Node root;
@@ -111,7 +111,7 @@ public class LinkedListImpl2 implements SimpleList2 {
 
             }
 
-            private Node root=LinkedListImpl2.this.root;
+            private Node root= LinkedListImpl.this.root;
 
 
 

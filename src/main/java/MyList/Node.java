@@ -1,11 +1,11 @@
 package MyList;
 
-public class Node2 {
+public class Node {
     private Object value;
-    private Node2 prev;
-    private Node2 next;
+    private Node prev;
+    private Node next;
 
-    public Node2(Object value) {
+    public Node(Object value) {
         this.value = value;
     }
 
@@ -17,19 +17,19 @@ public class Node2 {
         this.value = value;
     }
 
-    public Node2 getPrev() {
+    public Node getPrev() {
         return prev;
     }
 
-    public void setPrev(Node2 prev) {
+    public void setPrev(Node prev) {
         this.prev = prev;
     }
 
-    public Node2 getNext() {
+    public Node getNext() {
         return next;
     }
 
-    public void setNext(Node2 next) {
+    public void setNext(Node next) {
         this.next = next;
     }
 }

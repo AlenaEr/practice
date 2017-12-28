@@ -1,6 +1,6 @@
 package myarray;
 
-public class ArrayExampleImpl implements ArrayExample2 {
+public class ArrayExampleImpl implements ArrayExample {
     public int sum(int[] data) {
         int sum = 0;
         for (int i = 0; i < data.length; i++) {

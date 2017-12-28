@@ -1,6 +1,6 @@
 package MyList;
 
-public interface SimpleList2 extends Iterable {
+public interface SimpleList extends Iterable {
     public void remove(int index);
 
     public void add(Object item);

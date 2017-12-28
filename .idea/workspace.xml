@@ -2,54 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="85b22c94-620d-4bc5-bebd-fbfe463cff4e" name="Revert &quot;first commit&quot;" comment="" />
-    <list default="true" id="ee2ec6eb-a6d0-43d7-9d38-7030cf2274e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/hashtable/MainHashTable.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/MyList/ArrayListImpl$A.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/MyList/ArrayListImpl2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/MyList/ArrayListImpl2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/MyList/LinkedListImpl2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/MyList/LinkedListImpl2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/MyList/Node2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/MyList/SimpleList2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/datastructure/MyBag2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/datastructure/MyBagImpl2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/datastructure/MyQueue2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/datastructure/MyQueueImpl$MyQueueIterator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/datastructure/MyQueueImpl2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/datastructure/MyQueueImpl2$QueueIter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/datastructure/MyQueueImpl2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/datastructure/MyStack2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/datastructure/MyStackImpl2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/myarray/ArrayExample2.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MyList/ArrayListImpl.class" afterPath="$PROJECT_DIR$/target/classes/MyList/ArrayListImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MyList/LinkedListImpl$1.class" afterPath="$PROJECT_DIR$/target/classes/MyList/LinkedListImpl$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MyList/LinkedListImpl.class" afterPath="$PROJECT_DIR$/target/classes/MyList/LinkedListImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MyList/MainArr.class" afterPath="$PROJECT_DIR$/target/classes/MyList/MainArr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MyList/MainLinkedList.class" afterPath="$PROJECT_DIR$/target/classes/MyList/MainLinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MyList/Node.class" afterPath="$PROJECT_DIR$/target/classes/MyList/Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MyList/SimpleList.class" afterPath="$PROJECT_DIR$/target/classes/MyList/SimpleList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/datastructure/MainBag.class" afterPath="$PROJECT_DIR$/target/classes/datastructure/MainBag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/datastructure/MyQueueImpl.class" afterPath="$PROJECT_DIR$/target/classes/datastructure/MyQueueImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/datastructure/MyStack.class" afterPath="$PROJECT_DIR$/target/classes/datastructure/MyStack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/datastructure/MyStackImpl.class" afterPath="$PROJECT_DIR$/target/classes/datastructure/MyStackImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/datastructure/QueueImplList.class" afterPath="$PROJECT_DIR$/target/classes/datastructure/QueueImplList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/datastructure/StackImplExaple.class" afterPath="$PROJECT_DIR$/target/classes/datastructure/StackImplExaple.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/myarray/ArImpl.class" afterPath="$PROJECT_DIR$/target/classes/myarray/ArImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/myarray/ArrayExampleImpl.class" afterPath="$PROJECT_DIR$/target/classes/myarray/ArrayExampleImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ArrayExampleTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ArrayExampleTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MyList/MainArr.java" afterPath="$PROJECT_DIR$/src/main/java/MyList/MainArr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MyList/MainLinkedList.java" afterPath="$PROJECT_DIR$/src/main/java/MyList/MainLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hashtable/MyHashTableImpl.java" afterPath="$PROJECT_DIR$/src/main/java/hashtable/MyHashTableImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/myarray/ArImpl.java" afterPath="$PROJECT_DIR$/src/main/java/myarray/ArImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/myarray/ArrayExampleImpl.java" afterPath="$PROJECT_DIR$/src/main/java/myarray/ArrayExampleImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ArrayExampleTest.java" afterPath="$PROJECT_DIR$/src/test/java/ArrayExampleTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/MyList/ArrayListImpl2.java" afterPath="$PROJECT_DIR$/src/main/java/MyList/ArrayListImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/MyList/LinkedListImpl2.java" afterPath="$PROJECT_DIR$/src/main/java/MyList/LinkedListImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/MyList/Node2.java" afterPath="$PROJECT_DIR$/src/main/java/MyList/Node.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/MyList/SimpleList2.java" afterPath="$PROJECT_DIR$/src/main/java/MyList/SimpleList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/myarray/ArrayExample2.java" afterPath="$PROJECT_DIR$/src/main/java/myarray/ArrayExample.java" />
-    </list>
+    <list default="true" id="ee2ec6eb-a6d0-43d7-9d38-7030cf2274e4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -490,7 +443,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8130000" />
+    <option name="totallyTimeSpent" value="8221000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

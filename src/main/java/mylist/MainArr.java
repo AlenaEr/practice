@@ -1,4 +1,4 @@
-package MyList;
+package mylist;
 
 public class MainArr {
     public static void main(String[] args) {

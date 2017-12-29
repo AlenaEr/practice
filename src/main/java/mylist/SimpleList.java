@@ -1,4 +1,4 @@
-package MyList;
+package mylist;
 
 public interface SimpleList extends Iterable {
     public void remove(int index);

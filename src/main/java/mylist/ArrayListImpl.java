@@ -1,4 +1,4 @@
-package MyList;
+package mylist;
 
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;

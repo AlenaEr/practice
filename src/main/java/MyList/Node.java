@@ -1,13 +1,20 @@
 package MyList;
 
 public class Node {
+    private Object value;
     private Node prev;
     private Node next;
-    private Object value;
 
     public Node(Object value) {
         this.value = value;
+    }
 
+    public Object getValue() {
+        return value;
+    }
+
+    public void setValue(Object value) {
+        this.value = value;
     }
 
     public Node getPrev() {
@@ -24,13 +31,5 @@ public class Node {
 
     public void setNext(Node next) {
         this.next = next;
-    }
-
-    public Object getValue() {
-        return value;
-    }
-
-    public void setValue(Object value) {
-        this.value = value;
     }
 }

@@ -1,9 +1,8 @@
 package datastructure;
 
 public interface MyStack {
-    boolean isEmpty();
-    int size();
-    void push(Object item);
-    Object pop();
-}
+    public int size();
 
+    public void push(Object item);
+    public Object pop();
+}

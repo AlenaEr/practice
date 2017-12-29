@@ -3,7 +3,7 @@ package datastructure;
 import java.util.Arrays;
 import java.util.Iterator;
 
-public class MyBagImpl2 implements MyBag2 ,Iterable{
+public class MyBagImpl implements MyBag,Iterable{
     private Object[] data = null;
     private int size;
     private int capacity = 10;
@@ -11,18 +11,18 @@ public class MyBagImpl2 implements MyBag2 ,Iterable{
 
     @Override
     public String toString() {
-        return "MyBagImpl2{" +
+        return "MyBagImpl{" +
                 "data=" + Arrays.toString(data) +
                 ", size=" + size +
                 ", capacity=" + capacity +
                 '}';
     }
 
-    public MyBagImpl2() {
+    public MyBagImpl() {
         data=new Object[capacity];
     }
 
-    public MyBagImpl2(int capacity) {
+    public MyBagImpl(int capacity) {
         this.capacity = capacity;
         data=new Object[capacity];
     }

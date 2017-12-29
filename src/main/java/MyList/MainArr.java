@@ -2,7 +2,7 @@ package MyList;
 
 public class MainArr {
     public static void main(String[] args) {
-        ArrayListImpl2 arrayListImpl2=new ArrayListImpl2();
+        ArrayListImpl arrayListImpl2=new ArrayListImpl();
         arrayListImpl2.add(10);
         arrayListImpl2.add(100);
         System.out.println(arrayListImpl2.size());
@@ -14,7 +14,7 @@ public class MainArr {
             System.out.println(ob);
         }
         System.out.println("------------------------------");
-        LinkedListImpl2 impl2=new LinkedListImpl2();
+        LinkedListImpl impl2=new LinkedListImpl();
         impl2.add(15);
         impl2.add(25);
         impl2.add(35);

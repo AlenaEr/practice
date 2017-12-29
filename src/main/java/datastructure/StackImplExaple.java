@@ -1,6 +1,6 @@
 package datastructure;
 
-public class StackImplExaple implements MyStack2 {
+public class StackImplExaple implements MyStack {
     private Object[] data;
     private int size;
     private int capacity = 10;

@@ -1,8 +1,5 @@
 package MyList;
 
-import java.util.Iterator;
-import java.util.ListIterator;
-
 public class MainLinkedList {
     public static void main(String[] args) {
        LinkedListImpl linkedList = new LinkedListImpl();

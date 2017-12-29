@@ -4,9 +4,9 @@ import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 
 public class ArrayListImpl implements SimpleList {
-    Object[] data;
+    private Object[] data;
     private int size;
-    int capacity = 15;
+    private int capacity = 10;
     private long version;
 
     public ArrayListImpl() {
@@ -18,74 +18,85 @@ public class ArrayListImpl implements SimpleList {
         data = new Object[capacity];
     }
 
+    @Override
+    public void remove(int index) {
+        version++;
+        if (index == size - 1) {
+            data[index] = null;
+            size--;
+        }
+        if (index < size - 1) {
+            for (int i = 0; i < data.length-1; i++) {
+                data[i] = data[i + 1];
+            }
+            data[size - 1] = null;
+            size--;
+        }
 
-    public boolean isEmpty() {
-        return size == 0;
     }
 
-    public int size() {
-        return size;
-    }
-
+    @Override
     public void add(Object item) {
         if (size + 1 > data.length) {
-            Object[] tmp = new Object[data.length + capacity];
-            System.arraycopy(data, 0, tmp, 0, data.length);
-            data = tmp;
+            Object[] temp = new Object[data.length + capacity];
+            System.arraycopy(data, 0, temp, 0, data.length);
+            data = temp;
         }
         data[size] = item;
         size++;
         version++;
-
     }
 
-    public Object set(int index, Object val) {
-        version++;
-        Object old = data[index];
-        data[index] = val;
-        return old;
-    }
-
-
-    public void remove(int index) {
-     if (index==size-1){
-         data[size-1]=null;
-     }
-     if (index<size-1){
-         for (int i=0;i<data.length;i++){
-             data[i]=data[i+1];
-         }
-         data[size-1]=null;
-         size--;
-     }
-    }
-
+    @Override
     public Object get(int index) {
         return data[index];
     }
 
-    public Iterator iterator() {
-        return new A();
+    @Override
+    public Object set(int index, Object value) {
+        version++;
+        Object oldVal = data[index];
+        data[index] = value;
+        return oldVal;
     }
 
-    class A implements Iterator {
-        int iterIndex;
-        int arrSize = size;
-        private long iterVersion;
+    @Override
+    public boolean isEmpty() {
+        return size == 0;
+    }
 
-        @Override
-        public boolean hasNext() {
-            return iterIndex < arrSize;
-        }
+    @Override
+    public int size() {
+        return size;
+    }
 
-        @Override
-        public Object next() {
-            if (iterVersion != version) {
-                throw new ConcurrentModificationException("");
+    @Override
+    public Iterator iterator() {
+        return new Iterator() {
+            private int iterIndex;
+            private int iterSize = size;
+            private long version = ArrayListImpl.this.version;
+
+            @Override
+            public boolean hasNext() {
+
+                return iterIndex < iterSize;
             }
-            Object item = data[iterIndex];
-            iterIndex++;
-            return item;
-        }
+
+            @Override
+            public Object next() {
+                if (version != version) {
+                    throw new ConcurrentModificationException("version!=version))");
+                }
+                Object item = data[iterIndex];
+                iterIndex++;
+                return item;
+            }
+
+            @Override
+            public void remove() {
+
+            }
+        };
     }
 }

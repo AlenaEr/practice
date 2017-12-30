@@ -7,7 +7,6 @@ public class LinkedListImpl implements SimpleList {
     private long version;
     private Node root;
 
-
     @Override
     public void remove(int index) {
         if (isEmpty()) {
@@ -17,9 +16,9 @@ public class LinkedListImpl implements SimpleList {
             throw new RuntimeException("index!!!");
         }
         Node temp = root;
-        int step=0;
+        int step = 0;
         while (temp.getNext() != null) {
-            if (step==index) {
+            if (step == index) {
                 break;
             }
             temp = temp.getNext();
@@ -27,10 +26,10 @@ public class LinkedListImpl implements SimpleList {
         }
         Node next = temp.getNext();
         Node previos = temp.getPrev();
-        if(previos!=null) {
+        if (previos != null) {
             previos.setNext(next);
         }
-        if(next!=null){
+        if (next != null) {
             next.setPrev(previos);
         }
 
@@ -52,8 +51,6 @@ public class LinkedListImpl implements SimpleList {
             node.setPrev(temp);
         }
         size++;
-
-
     }
 
     @Override
@@ -80,12 +77,12 @@ public class LinkedListImpl implements SimpleList {
             throw new RuntimeException("index!!!");
         }
         Node temp = root;
-        int step=0;
+        int step = 0;
         while (temp.getNext() != null) {
             temp = temp.getNext();
             step++;
         }
-        Object oldVal=temp.getValue();
+        Object oldVal = temp.getValue();
         temp.setValue(value);
         return oldVal;
     }
@@ -104,29 +101,27 @@ public class LinkedListImpl implements SimpleList {
     public Iterator iterator() {
         return new Iterator() {
             private int iterIndex;
-            private int iterSize=size;
+            private int iterSize = size;
 
             @Override
             public void remove() {
 
             }
 
-            private Node root= LinkedListImpl.this.root;
-
-
+            private Node root = LinkedListImpl.this.root;
 
             @Override
             public boolean hasNext() {
-                return iterIndex<iterSize;
+                return iterIndex < iterSize;
             }
 
             @Override
             public Object next() {
-                if (!hasNext()){
+                if (!hasNext()) {
                     throw new RuntimeException("data empty");
                 }
-                Object val=root.getValue();
-                root= root.getNext();
+                Object val = root.getValue();
+                root = root.getNext();
                 iterIndex++;
                 return val;
             }

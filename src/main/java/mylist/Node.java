@@ -1,4 +1,4 @@
-package MyList;
+package mylist;
 
 public class Node {
     private Object value;

@@ -14,6 +14,6 @@ public class InsertionSort implements SortExample {
             }
 
         }
-        return new int[0];
+        return data;
     }
 }

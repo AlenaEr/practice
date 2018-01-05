@@ -1,24 +1,21 @@
 package sortalgo;
 
-public class BubbleSort implements SortExample {
+public class BubbleSort implements SortExample{
     @Override
     public int[] sort(int[] data) {
-        int numNext;
-        for (int i = data.length; i >= 0; i--) {
-            for (int j = 0; j < data.length; j++) {
-                numNext = j + 1;
-                if (data[j] > data[numNext]) {
-                    replace(j, numNext, data);
+        int num;
+        for (int i=data.length-1;i>=0;i--){
+            for (int j=0;j<data.length-1;j++){
+                num=j+1;
+                if (data[j]>data[num]){
+                    int tmp=data[i];
+                    data[i]=data[j];
+                    data[j]=tmp;
                 }
             }
         }
         return data;
     }
 
-    public void replace(int i, int j, int[] data) {
-        int temp;
-        temp = data[i];
-        data[i] = data[j];
-        data[j] = temp;
-    }
+
 }

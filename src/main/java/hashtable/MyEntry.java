@@ -9,6 +9,10 @@ public class MyEntry {
         this.value = value;
     }
 
+    public MyEntry() {
+
+    }
+
     public Object getKey() {
         return key;
     }

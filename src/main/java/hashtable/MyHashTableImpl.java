@@ -5,15 +5,15 @@ import java.util.LinkedList;
 public class MyHashTableImpl implements MyHashTable {
     private LinkedList[] data;
     private int size;
-    private int capacity=10;
+    private int capacity = 10;
 
     public MyHashTableImpl() {
-        data=new LinkedList[capacity];
+        data = new LinkedList[capacity];
     }
 
     public MyHashTableImpl(int capacity) {
         this.capacity = capacity;
-        data=new LinkedList[capacity];
+        data = new LinkedList[capacity];
     }
 
     @Override
